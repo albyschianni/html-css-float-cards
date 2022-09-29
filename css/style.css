@@ -26,24 +26,20 @@ header div{
 
 main section{
     /* debug */
-    min-height: 100px;
-    background-color: aquamarine;
+     min-height: 100px;
+    /* background-color: aquamarine;  */
 
     width: 60%;
     margin: 15px auto;
 }
 
-.row-1{
+.row{
     /* debug */
-    background-color: rgb(60, 35, 3);
-    min-height: 120px;
+    /* background-color: rgb(60, 35, 3);
+    min-height: 120px; */
 }
 
-.row-2{
-    /* debug */
-    background-color: rgb(60, 35, 3);
-    min-height: 120px;
-}
+
 
 /* clearfix */
 .raw::after{
@@ -52,7 +48,7 @@ main section{
     clear: both;
 }
 
-.col-1{
+.col{
     float: left;
     width: calc(100% / 3);
     /* debug */
@@ -66,4 +62,28 @@ div img{
 }
 #male-1{
     
+}
+
+.col{
+    background-color: #0f0e17;
+}
+.card-content{
+    float: left;
+    margin: 10px 0 0 20px;
+    line-height: 27px;
+    color: white;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.name{
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+}
+.email{
+    color:#6ecbf2 ;
 }
